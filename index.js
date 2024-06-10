@@ -1,3 +1,4 @@
+//day 1....................................................
 //data type
 // //var
 // var num = 10;
@@ -118,5 +119,83 @@
 // let result = (num1 && num2)?"yes":"no";
 // console.log(result);
 
-let result = 10 + 5 * 2;
-console.log(result);
+// let result = 10 + 5 * 2 + 2 * 2;
+// console.log(result);
+
+// let a = 10;
+// a +=5;
+// console.log(a);
+
+
+//day 2................................................
+
+//function.......
+
+// function add(){
+//     console.log("hello");
+//     }
+// add();
+
+// function add(a){
+//     console.log("hello ",a);
+// }
+// add(10);
+
+// function add(a=1){
+//     console.log("hello ",a);
+// }
+// add();
+// add(10);
+
+// function add(a){
+//     console.log("hello ",a);
+// }
+// add(10,20);
+
+// function add(...a){
+//     console.log("hello ",a);
+// }
+// add(10,20);
+
+// function add(...a){
+//     console.log(a[0])
+//     console.log(a[1])
+//     console.log(a[2])
+// }
+// add(10,20,30);
+
+// function add(...a){
+//     console.log(a);
+//   }
+//   add(10,{"key":"59"},30);
+
+// function add(...a){
+//   console.log(a[1].key);
+// }
+// add(10,{"key":"59"},30);
+
+// function add(b,...a){
+//   console.log(b);
+// }
+// add(10,{"key":"59"},30);
+
+// function add(a){
+//   return a;
+// }
+// const result = add("hello");
+// console.log(result);
+
+// function add(a){
+//     return a+a;
+//   }
+//   const result = add("hello");
+//   const result1 = add("hello1");
+//   console.log(result);
+//   console.log(result1);
+
+// (()=>{
+//     console.log("hello");
+// })()
+
+
+
