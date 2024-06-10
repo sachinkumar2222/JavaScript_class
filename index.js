@@ -197,5 +197,42 @@
 //     console.log("hello");
 // })()
 
+// string
 
+// let str = "sachin is my name";
+// console.log(str[3]);
+// console.log(str.slice(0,6));
+// console.log(str.length);
+
+// let num = "120";
+// console.log(typeof num);
+// console.log(typeof parseInt(num));
+// console.log(typeof parseFloat(num));
+
+// const obj = {
+//     name : "sachin",
+//     class : "2 year",
+//     "roll No." : "47",
+//     age : (a)=>{
+//     return a;
+//     }
+// }
+// console.log(obj.name);
+// console.log(obj.class);
+// console.log(obj["roll No."]);
+// console.log(obj.age(13));
+
+//arry
+
+const arr = [
+    "hello", 
+    "one",
+    { name:"sachin",class:"2 year"},
+    [1,2,3,[4,5,6]]
+];
+console.log(arr);
+console.log(arr[1]);
+console.log(arr[2]["name"]);
+console.log(arr[3][2]);
+console.log(arr[3][3][2]);
 
