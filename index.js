@@ -224,15 +224,90 @@
 
 //arry
 
-const arr = [
-    "hello", 
-    "one",
-    { name:"sachin",class:"2 year"},
-    [1,2,3,[4,5,6]]
-];
-console.log(arr);
-console.log(arr[1]);
-console.log(arr[2]["name"]);
-console.log(arr[3][2]);
-console.log(arr[3][3][2]);
+// const arr = [
+//     "hello", 
+//     "one",
+//     { name:"sachin",class:"2 year"},
+//     [1,2,3,[4,5,6]]
+// ];
+// console.log(arr);
+// console.log(arr[1]);
+// console.log(arr[2]["name"]);
+// console.log(arr[3][2]);
+// console.log(arr[3][3][2]);
 
+
+//day 3...............................................................
+// let age = 10;
+// console.log(age);
+
+// let name0 = "it's hello";
+// let name1 = 'it"s hello';
+// console.log(name0);
+// console.log(name1);
+
+// let isCheck = true;
+// console.log(isCheck);
+
+// let person = {key:10,"str":"hello",bool:true,fun:function (){
+//     return "sachin";
+// }}
+// console.log(person.key);
+// console.log(person["key"]);
+// console.log(person["str"]);
+// console.log(person["bool"]);
+// console.log(person.fun());
+
+// let arr = ["hola",10];
+// // console.log(arr);
+// // console.log(arr[1]);
+
+// // function add(){
+// //     console.log("hello");
+// // }
+// // add();
+// function add(a){
+//     console.log(`my pocket money is ${a+a} in current time`);
+// }
+// add(100);
+
+// let a = prompt("enter your age? ");
+// age = Number.parseInt(age) 
+
+// if(age>=18){
+//     console.log("u can vote");
+// }
+// else{
+//     console.log(`not able to vote, try after ${18-age} year`);
+// }
+
+// let str = "sunday";
+// switch(str){
+//     case "monday" :
+//         console.log("today is monday");
+//         break;
+//     case "tuesday" :
+//         console.log("today is tuesday");
+//         break;
+//     case "wednesday" :
+//         console.log("today is wednesday");
+//         break;
+//     case "friday" :
+//         console.log("today is wednesday");
+//         break;
+//     default : 
+//     console.log("today is sunday");
+// }
+
+//loop
+// let i = 0;
+// while(i < 15){
+//     console.log("countin is ",i);
+//     i++;
+// }
+let i = 2;
+console.log("table od 2 is ");
+while(i<=20){
+    console.log(i);
+    i=i+2;
+}
