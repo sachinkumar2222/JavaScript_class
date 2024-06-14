@@ -305,9 +305,84 @@
 //     console.log("countin is ",i);
 //     i++;
 // }
-let i = 2;
-console.log("table od 2 is ");
-while(i<=20){
-    console.log(i);
-    i=i+2;
-}
+// let i = 2;
+// console.log("table od 2 is ");
+// while(i<=20){
+//     console.log(i);
+//     i=i+2;
+// }
+
+// let i = 2;
+// do{
+//     console.log(i);
+//     i=i+2;
+// }while(i<=20)
+
+// let i;
+// for(i=2;i<=20;i=i+2){
+//    console.log(`2 X ${i/2} = ${i}`);
+// }
+
+
+// let i;
+// let table = 3;
+// for(i=1;i<=10;i++){
+//    console.log(`${table}x${i}=${table*i}`);
+// }
+
+// let date = new Date();
+// let day = ["sun","mon","tue","wed","thu","fri","sat"];
+// let Month =["jun","feb","mar","apr","may","jun","jul","aug","sep","oct","nev","dec"];
+// console.log(date.getDate());
+// console.log(day[date.getDay()]);
+// console.log(Month[date.getMonth()]);
+// console.log(date.getFullYear());
+
+// let str = "hello";
+// let num = 100;
+// let bool = true;
+// console.log("str");
+// console.log("num");
+// console.log("bool");
+
+// let obj = {
+//     key : "value0"
+// }
+// console.log(obj);
+// console.warn(obj);
+// alert(obj.key);
+// document.write(obj.key);
+
+// let arr = [1,3,"sachin","kumar"];
+// console.table(arr);
+
+// function add(...a){
+//     return a[1];
+// }
+// let result = add(10,20,30);
+// console.log(result);
+
+// let num = 100;
+// if(!num){
+//     console.log("if print")
+// }
+// else{
+//     console.log("else print");
+// }
+
+// let str = "u";
+// switch (str) {
+//     case "a":
+//         console.log("this is a")
+//         break;
+//     case "b":
+//         console.log("this is b")
+//         break;
+//     case "c":
+//         console.log("this is c")
+//         break;
+//     default:
+//         console.log(`choose valid option, you choose ${str}`);
+//         break;
+// }
+
